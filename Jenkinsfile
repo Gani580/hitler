@@ -1,7 +1,6 @@
+
+    
 pipeline { 
-    agent any 
-    tools { 
-        maven 'Mpipeline { 
     agent any 
     tools { 
         maven 'MVN_HOME' // Ensure name matches configured Maven installation 
@@ -29,4 +28,3 @@ pipeline {
         } 
     } 
 }
-
